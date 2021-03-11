@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="stylesheets/main.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+    <title>Sign In</title> 
+</head>
+<body>
+    <!-- Header / -->
+    <header class="text-center">
+        <img src="images/logo.svg" width="70" alt="logo">
+        <button class="btn language-switch">العربية</button>
+    </header>
+    
+    <!-- Content Wrap / -->
+    <section class="container-fluid content-wrap signin-page">
+        <div class="text-center">
+            <h1 class="page-title">Sign in</h1>
+        </div>
+    
+        <form action="" name="login">
+            <div class="riseInput with-icon email-field mb-5">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" class="" />
+            </div>
+    
+            <div class="riseInput with-icon password-field">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" class="" />
+                <span class="show-pass-btn">Show</span>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-danger common-btn">sign in</button>
+            </div>
+
+            <div class="d-flex login-controls justify-content-between">
+                <div>
+                    <label class="checkbox-container">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        Remember Me
+                    </label>
+                </div>
+                <div><a href="javascript:;">Forgot Password?</a></div>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer / -->
+    <footer class="before-login-footer">
+        <p>New to OSN? <a href="javascript:;">Sign Up Now</a></p>
+        <ul class="social-links">
+            <li><a href="javascript:;"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="javascript:;"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="javascript:;"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="javascript:;"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

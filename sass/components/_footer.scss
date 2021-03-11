@@ -1,0 +1,28 @@
+.before-login-footer {
+    padding: 20px 0;
+    p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 17px;
+        a {
+            color: $base-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.social-links {
+    margin: 30px 0 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        color: #333;
+        font-size: 25px;
+    }
+}

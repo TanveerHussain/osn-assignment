@@ -1,0 +1,68 @@
+.riseInput {
+    position: relative;
+
+    label {
+        position: absolute;
+        top: 0;
+        font-size: 18px;
+        margin: 0 25px;
+        padding: 0 10px;
+        -webkit-transition: top .2s ease-in-out, 
+        font-size .2s ease-in-out;
+        transition: top .2s ease-in-out, 
+        font-size .2s ease-in-out;
+
+        &.active {
+            top: -15px;
+            font-size: 15px;
+            color:#999;
+        }
+    }
+
+    span.error {
+        color: $base-color;
+        font-weight: 500;
+        font-size: 12px;
+        position: relative;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px 35px;
+        border: none;
+        border-bottom: 1px solid #000;
+        font-size: 18px;
+        color: #333;
+        height: 40px;
+        font-weight: 500;
+        
+        &:focus {
+            outline: none;
+        }
+    } 
+}
+
+.with-icon {
+    &:before {
+        content: "";
+        position: absolute;
+        left:0px;
+        top:3px;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.email-field {
+    &:before {
+        background: url('../../images/icon-form-user.svg') no-repeat center center;
+        background-size: cover;
+    }
+}
+
+.password-field {
+    &:before {
+        background: url('../../images/icon-form-password.svg') no-repeat center center;
+        background-size: cover;
+    }
+}

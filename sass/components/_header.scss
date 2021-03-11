@@ -1,0 +1,14 @@
+header {
+    border-bottom: 1px solid #999;
+    padding: 15px 0; 
+    position: relative;
+}
+
+.language-switch {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 500;
+    font-size: 17px;
+}

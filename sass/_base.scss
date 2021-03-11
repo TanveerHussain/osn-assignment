@@ -1,0 +1,30 @@
+html,body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-title {
+    color: #333;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content-wrap {
+    flex: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.common-btn {
+    background-color: $base-color;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
